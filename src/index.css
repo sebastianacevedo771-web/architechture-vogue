@@ -191,12 +191,12 @@ All colors MUST be HSL for perfect theming.
   .card-service {
     @apply bg-card rounded-xl p-8 shadow-soft hover:shadow-medium transition-all duration-300;
     @apply border border-border/50 hover:border-primary/20 hover:-translate-y-2;
-    @apply group cursor-pointer;
+    @apply cursor-pointer;
   }
 
   .card-project {
     @apply bg-white rounded-xl overflow-hidden shadow-soft hover:shadow-strong transition-all duration-500;
-    @apply hover:-translate-y-2 group cursor-pointer;
+    @apply hover:-translate-y-2 cursor-pointer;
   }
 
   .card-property {

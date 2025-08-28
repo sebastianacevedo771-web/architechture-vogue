@@ -98,7 +98,7 @@ const ProjectsSection = () => {
           {projects.map((project, index) => (
             <div
               key={project.id}
-              className="card-project animate-fade-up"
+              className="card-project group animate-fade-up"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               {/* Project Image */}

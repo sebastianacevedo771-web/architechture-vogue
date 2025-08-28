@@ -68,7 +68,7 @@ const ServicesSection = () => {
           {services.map((service, index) => (
             <div
               key={service.title}
-              className="card-service animate-fade-up"
+              className="card-service group animate-fade-up"
               style={{ animationDelay: `${index * 0.1}s` }}
             >
               <div className="mb-6">
