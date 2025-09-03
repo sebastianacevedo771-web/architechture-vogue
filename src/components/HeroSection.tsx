@@ -1,6 +1,6 @@
 import React from 'react';
 import { ArrowRight, Play, Building2 } from 'lucide-react';
-import heroImage from '@/assets/hero-futuristic.jpg';
+import heroBanner from '/lovable-uploads/45d834c8-a790-4339-ac82-1e9f479e0e21.png';
 
 const HeroSection = () => {
   return (
@@ -8,11 +8,11 @@ const HeroSection = () => {
       {/* Background */}
       <div className="absolute inset-0">
         <img
-          src={heroImage}
-          alt="Arquitectura moderna - Diseño innovador por Vortika"
+          src={heroBanner}
+          alt="Vortika - Construyendo el Futuro del Territorio"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 hero-overlay"></div>
+        <div className="absolute inset-0 bg-background/20"></div>
         
         {/* Subtle floating elements */}
         <div className="absolute inset-0 opacity-60">
@@ -27,19 +27,19 @@ const HeroSection = () => {
         <div className="max-w-5xl mx-auto">
           {/* Main Heading */}
           <div className="mb-8 animate-fade-up">
-            <h1 className="mb-4 font-heading">
-              Construimos el
+            <h1 className="mb-4 font-heading text-white">
+              Construyendo el
               <span className="block text-primary">
-                Futuro Hoy
+                Futuro del Territorio
               </span>
             </h1>
             <div className="h-0.5 w-24 bg-gradient-primary mx-auto rounded-full"></div>
           </div>
           
-          <p className="text-xl md:text-2xl mb-12 text-foreground/80 animate-fade-up max-w-3xl mx-auto leading-relaxed" 
+          <p className="text-xl md:text-2xl mb-12 text-white/90 animate-fade-up max-w-3xl mx-auto leading-relaxed" 
              style={{ animationDelay: '0.2s' }}>
-            Transformamos espacios con arquitectura innovadora y construcción sostenible. 
-            Cada proyecto es una oportunidad de crear algo extraordinario.
+            Diseñadores y constructores de la obra que redefine el territorio. 
+            Transformamos espacios con arquitectura innovadora y construcción sostenible.
           </p>
 
           {/* CTA Buttons */}
@@ -67,7 +67,7 @@ const HeroSection = () => {
               <div className="text-3xl md:text-4xl font-bold text-primary mb-2 group-hover:scale-105 transition-transform">
                 250+
               </div>
-              <div className="text-foreground/70 text-sm font-medium">
+              <div className="text-white/70 text-sm font-medium">
                 Proyectos Completados
               </div>
               <div className="h-0.5 bg-primary w-8 mx-auto mt-3 rounded-full"></div>
@@ -77,7 +77,7 @@ const HeroSection = () => {
               <div className="text-3xl md:text-4xl font-bold text-accent mb-2 group-hover:scale-105 transition-transform">
                 180+
               </div>
-              <div className="text-foreground/70 text-sm font-medium">
+              <div className="text-white/70 text-sm font-medium">
                 Construcciones Entregadas
               </div>
               <div className="h-0.5 bg-accent w-8 mx-auto mt-3 rounded-full"></div>
@@ -87,7 +87,7 @@ const HeroSection = () => {
               <div className="text-3xl md:text-4xl font-bold text-primary mb-2 group-hover:scale-105 transition-transform">
                 15+
               </div>
-              <div className="text-foreground/70 text-sm font-medium">
+              <div className="text-white/70 text-sm font-medium">
                 Años de Experiencia
               </div>
               <div className="h-0.5 bg-primary w-8 mx-auto mt-3 rounded-full"></div>
@@ -97,7 +97,7 @@ const HeroSection = () => {
               <div className="text-3xl md:text-4xl font-bold text-accent mb-2 group-hover:scale-105 transition-transform">
                 98%
               </div>
-              <div className="text-foreground/70 text-sm font-medium">
+              <div className="text-white/70 text-sm font-medium">
                 Satisfacción Cliente
               </div>
               <div className="h-0.5 bg-accent w-8 mx-auto mt-3 rounded-full"></div>

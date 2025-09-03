@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Building2 } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
+import logoVortika from '/lovable-uploads/5a5c2d44-e388-4224-9354-f8bc97a63d4a.png';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -36,12 +37,11 @@ const Header = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <a href="#inicio" className="flex items-center group">
-              <div className="w-10 h-10 bg-gradient-primary rounded-lg flex items-center justify-center shadow-soft group-hover:shadow-accent transition-all duration-300 group-hover:scale-105">
-                <Building2 className="w-5 h-5 text-primary-foreground" />
-              </div>
-              <span className="ml-3 text-xl font-heading font-semibold text-foreground">
-                Vortika
-              </span>
+              <img 
+                src={logoVortika} 
+                alt="Vortika Logo" 
+                className="h-10 w-auto group-hover:scale-105 transition-transform duration-300"
+              />
             </a>
           </div>
 
