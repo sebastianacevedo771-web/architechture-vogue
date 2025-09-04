@@ -40,7 +40,7 @@ const Header = () => {
               <img 
                 src={logoVortika} 
                 alt="Vortika Logo" 
-                className="h-10 w-auto group-hover:scale-105 transition-transform duration-300"
+                className="h-8 w-auto group-hover:scale-105 transition-transform duration-300"
               />
             </a>
           </div>

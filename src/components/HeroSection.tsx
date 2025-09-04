@@ -25,23 +25,6 @@ const HeroSection = () => {
       {/* Main Content */}
       <div className="relative container-custom text-center text-foreground z-10">
         <div className="max-w-5xl mx-auto">
-          {/* Main Heading */}
-          <div className="mb-8 animate-fade-up">
-            <h1 className="mb-4 font-heading text-white">
-              Construyendo el
-              <span className="block text-primary">
-                Futuro del Territorio
-              </span>
-            </h1>
-            <div className="h-0.5 w-24 bg-gradient-primary mx-auto rounded-full"></div>
-          </div>
-          
-          <p className="text-xl md:text-2xl mb-12 text-white/90 animate-fade-up max-w-3xl mx-auto leading-relaxed" 
-             style={{ animationDelay: '0.2s' }}>
-            Diseñadores y constructores de la obra que redefine el territorio. 
-            Transformamos espacios con arquitectura innovadora y construcción sostenible.
-          </p>
-
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 animate-fade-up" 
                style={{ animationDelay: '0.4s' }}>
