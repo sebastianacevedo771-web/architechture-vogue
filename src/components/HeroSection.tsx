@@ -24,7 +24,7 @@ const HeroSection = () => {
 
       {/* Main Content */}
       <div className="relative container-custom text-center text-foreground z-10">
-        <div className="max-w-5xl mx-auto min-h-screen flex flex-col justify-end pb-8">
+        <div className="max-w-5xl mx-auto min-h-screen flex flex-col justify-end -mb-16">
           {/* Stats with Modern Design */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 animate-fade-up" 
                style={{ animationDelay: '0.6s' }}>
