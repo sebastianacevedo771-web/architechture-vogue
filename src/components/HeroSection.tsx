@@ -25,24 +25,6 @@ const HeroSection = () => {
       {/* Main Content */}
       <div className="relative container-custom text-center text-foreground z-10">
         <div className="max-w-5xl mx-auto">
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16 animate-fade-up" 
-               style={{ animationDelay: '0.4s' }}>
-            <a
-              href="#proyectos"
-              className="btn-hero inline-flex items-center gap-3 group"
-            >
-              <Building2 className="w-5 h-5" />
-              Explorar Proyectos
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-            </a>
-            
-            <button className="btn-secondary inline-flex items-center gap-3 group">
-              <Play className="w-5 h-5 group-hover:scale-110 transition-transform" />
-              Ver Presentación
-            </button>
-          </div>
-
           {/* Stats with Modern Design */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 animate-fade-up" 
                style={{ animationDelay: '0.6s' }}>
